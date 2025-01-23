@@ -129,6 +129,16 @@ See the above repository for updates as well as full license text. */
 	min-height: 0px !important
 }
 
+/* hides tabs */
+#TabsToolbar-customization-target {
+        visibility: collapse;
+}
+
+/* hides the sidebar's header */
+#sidebar-header {
+  visibility: collapse !important;
+} 
+
 #tabbrowser-tabs,
 #tabbrowser-tabs>.tabbrowser-arrowscrollbox,
 #tabbrowser-arrowscrollbox {
